@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+      <title>Document</title>
+</head>
+<body>
+    <h2 id="port">Port</h2> <hr id="poroline"> <hr  id="porsline"><h2 id="folio">folio</h2> 
+    <hr id="folioline"> <hr id="folisline">
+     <div id="imacontainerge">
+        <img id="photo" src="photo_resized_1920x1080_wallpaper.jpg" alt="rohit">
+     </div>
+     <div id="info">
+        <h2 id="hello"> Hello    I'm</h3>
+            <h1 id="name"> Rohit Jangid</h1>
+            <h2 id="and"> And I'm a</h2> <h2 id="web"> Web Developr</h2>
+            <h2 id="know"> I know about HTML, CSS, JAVA SCRIPT, C,  <br>
+            C++, JAVA etc. languages  </h2>
+            <i id="instaicon" class="fa-brands fa-square-instagram"></i>
+            <i id="githubicon" class="fa-brands fa-github"></i>
+            <i id="facebookicon" class="fa-brands fa-facebook"></i>
+            <i id="linkedinicon" class="fa-brands fa-linkedin"></i> 
+<a href="contectme.html" target="_blank">
+  <button class="slide-btn">Contact Me</button>
+</a>
+
+     </div> 
+</body>
+<script>
+    const openinsta = document.getElementById("instaicon");
+    openinsta.addEventListener("click", function() {
+        window.open("https://www.instagram.com/i_am_jangid_rohit?igsh=MXBzODduZDVnOHd6cw==", "_blank");
+    });
+    const opengithub = document.getElementById("githubicon");
+    opengithub.addEventListener("click", function() {
+        window.open("https://github.com/Rohit5709?tab=repositories", "_blank");
+    });
+    const openfacebook = document.getElementById("facebookicon");
+    
+    openfacebook.addEventListener("click", function() {
+        window.alert(
+            "this time the developer not access  this Service   "
+        
+        )
+    });
+    const openlinkedin = document.getElementById("linkedinicon");
+    openlinkedin.addEventListener("click", function() {
+        window.alert(
+            "this time the developer not access  this service   "
+        )
+    });
+       
+</script>
+</html>
